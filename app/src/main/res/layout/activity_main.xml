@@ -9,13 +9,11 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nama" />
 
     <EditText
-        android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi nama lengkap"
@@ -23,13 +21,11 @@
         />
 
     <TextView
-        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email" />
 
     <EditText
-        android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Email"
@@ -37,13 +33,11 @@
         />
 
     <TextView
-        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Handphone" />
 
     <EditText
-        android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi No Handphone"
@@ -51,13 +45,11 @@
         />
 
     <TextView
-        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tanggal Lahir" />
 
     <EditText
-        android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Tanggal Lahir(dd/MM/yyyy)"
@@ -65,24 +57,35 @@
         />
 
     <TextView
-        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jumlah Mata Kuliah" />
 
     <EditText
-        android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Jumlah Mata Kuliah"
         android:inputType="number"
         />
 
-    <Button
-        android:id="@+id/button"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        />
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIMPAN"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BATAL"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>
