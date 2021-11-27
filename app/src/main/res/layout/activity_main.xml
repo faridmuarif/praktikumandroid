@@ -43,22 +43,20 @@
         android:text="Handphone" />
 
     <EditText
-        android:id="@+id/hpEditText"
+        android:id="@+id/noHandphoneEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi No Handphone"
-        android:inputType="phone"
         android:layout_marginBottom="8dp"
-        />
+        android:hint="Isi No Handphone"
+        android:inputType="phone" />
 
     <TextView
-        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tanggal Lahir" />
 
     <EditText
-        android:id="@+id/tanggalEditText"
+        android:id="@+id/tanggalLahirEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Tanggal Lahir(dd/MM/yyyy)"
@@ -67,13 +65,12 @@
         />
 
     <TextView
-        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jumlah Mata Kuliah" />
 
     <EditText
-        android:id="@+id/kuliahEditText"
+        android:id="@+id/jumlahMatakuliahEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Jumlah Mata Kuliah"
